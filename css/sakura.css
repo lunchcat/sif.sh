@@ -126,13 +126,14 @@ html {
   
   /* Pre and Code */
   pre {
-    background-color: #40363a;
+    line-height: 1.4;
     display: block;
     padding: 1em;
     overflow-x: auto;
     margin-top: 0px;
     margin-bottom: 2.5rem;
     font-size: 0.9em;
+    font-weight: bolder;
   }
   
   code, kbd, samp {
