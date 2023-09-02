@@ -1,0 +1,58 @@
+/*
+* Colors used are from Catppuccin Latte (light) and Mocha (dark) 
+* https://github.com/catppuccin/catppuccin
+*/
+
+html {
+	margin: auto 1rem;
+}
+
+header, nav, footer {
+	text-align: center;
+}
+
+body {
+	max-width: 920px;
+	margin: 0 auto; 
+	background-color: #1e1e2e;
+  color: #cdd6f4;
+	font-size: 1.25em;
+	color: white;
+}
+
+pre {
+  font-size: xx-large;
+}
+
+li {
+  list-style-type: "— ";
+}
+
+a {
+	text-decoration: none;
+	color: #89dceb; 
+	border-bottom: 1px dotted;
+}
+a:hover {
+	border-bottom-style: solid;
+}
+
+ul {
+  line-height: 2em;
+}
+
+
+footer {
+  padding-bottom: 1em;
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #eff1f5;
+		color: #4c4f69;
+	}
+
+  a {
+    color: #8839ef;
+  }
+}
